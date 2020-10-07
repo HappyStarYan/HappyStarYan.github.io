@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f5f7;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+  .clearfix {
+     *zoom:1;
+  }   
+.w {
+    width: 1200px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    width: 1200px;
+    height: 42px;
+    margin: 30px auto;
+    /* background-color: #ffffff; */
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+.nav  {
+    float: left;
+    margin-left: 60px;
+}
+.nav li {
+    float: left;
+    margin:0 15px;
+}
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+.nav ul li a:hover {
+   border-bottom: 2px solid #00a4ff;
+   color:#00a4ff ;
+}
+.search {
+    height: 42px;
+    width: 412px;
+    float: left;
+    margin-left: 50px;
+}
+.search input {
+    float: left;
+      width: 345px;
+      height: 40px;
+      border: 1px solid #00a4ff;
+      border-right: 0;
+      color: #bfbfbf;
+      font-size: 14px;
+      padding-left: 15px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0px;
+    background: url(image/搜索.png);
+}
+.user {
+    float: left;
+    height: 40px;
+    margin-left: 42px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666666;
+}
+.banner {
+    height: 421px;
+    background: url(image/首页.png);
+}
+.subnav {
+    float: left;
+    width: 190px;
+    height: 421px;
+    margin-left: 175px;
+    background:rgba(0, 0,0, 0.3);
+}
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+}
+.subnav ul li a {
+        display: block;
+        text-decoration: none;
+        font-size: 14px;
+        color: #ffffff;
+        padding:0 30px;
+}
+.subnav ul span {
+    float: right;
+}
+.subnav ul li a:hover {
+    color:#00a4ff;
+}
+.course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin-top: 55px;
+    margin-right: 154px;
+     background-color: #ffffff; 
+    font-size: 25px;
+}
+.course h2 {
+    height: 55px;
+    background-color: aqua;
+    font-size: 22px;
+    line-height: 55px;
+    text-align: center;
+    color: #ffffff;
+}
+.bd {
+    padding:0 25px;
+}
+.bd ul li {
+    padding: 12px 0;
+}
+.bd ul li h4 {
+    font-size: 17px;
+    color: #4e4e4e;
+}
+.bd ul li p {
+    font-size: 16px;
+    color: #a5a5a5;
+}
+.bd .sdy {
+    display: block;
+    height: 30px;
+    border: 2px solid #00a4ff;
+    text-align: center;
+    line-height: 30px;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.box-bd {
+    height: 80px;
+    background-color: #ffffff;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+.box-bd ul li a {
+    line-height: 80px;
+    float: left;
+    font-size: 16px;
+    margin-left: 40px;
+    color: black;
+}
+.box-bd ul li a:hover {
+   color: cyan;
+}
+.box-bd h3 {
+    line-height: 80px;
+    float: left;
+}
+.box-bd  h4  {
+    line-height: 80px;
+    float: right;
+}
+.box-bd  h4 a {
+    color: #a5a5a5;
+}
+.box-bt {
+    height: 40px;
+    margin-top: 10px;
+}
+.box-bt h3 {
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+.box-bt h4 {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+}
+.box-bt h4 a {
+    color: black;
+}
+.body {
+    margin-top: 15px;
+    width: 1255px;
+    height: 607px;
+    /* background-color: #ffffff; */
+
+}
+.body ul{
+    width: 1275px;
+}
+.body ul li {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    background-color: #fff;
+    width: 243px;
+    height: 304px;
+    /* background-color: pink; */
+}
+.review {
+    font-size: 14px;
+    padding: 0 28px;
+    margin-top: 30px;
+}
+.info h3 {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 6px;
+    color: darkorange;
+}
+.info {
+    margin-top: 14px;
+    font-size: 14px;
+    padding: 0 28px;
+}
+span {
+    margin-left: 30px;
+    color: #a5a5a5;
+}
+.footer {
+    height: 415px;
+    /* background-color:pink; */
+
+}
+.footer .w{
+    margin-top: 80px;
+}
+.copy {
+    float: left;
+}
+.copy p {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.links {
+    float: right;
+}
+.links dl {
+    float: left;
+    margin-left: 100px;
+}
+.links dl dt {
+    font-size: 20px;
+    color: #333;
+}
+.links dl dt a {
+    color:#333;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.copy .app {
+    font-size: 16px;
+    line-height: 33px;
+    display: block;
+    text-align: center  ;
+    width: 118px;
+    height: 33px;
+    border: 1px solid #00a4ff;
+}
+
+
